@@ -1,0 +1,12 @@
+\acswitchoff 
+\noaddvspace 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Recurrent Neural Network(RNN)\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Long Short Term Memory(LSTM)\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Bidirectional Long Short Term Memory(BI-LSTM)\relax }}{9}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture of offline phase\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Model Optimization and Training Architecture\relax }}{12}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gantt Chart\relax }}{14}{figure.caption.13}%

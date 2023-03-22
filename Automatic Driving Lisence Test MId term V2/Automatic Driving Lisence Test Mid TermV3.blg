@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Automatic Driving Lisence Test Mid TermV3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: IEEEtr.bst
+Database file #1: reference.bib
+You've used 3 entries,
+            1876 wiz_defined-function locations,
+            498 strings with 4199 characters,
+and the built_in function-call counts, 942 in all, are:
+= -- 89
+> -- 33
+< -- 0
++ -- 12
+- -- 9
+* -- 68
+:= -- 135
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 50
+empty$ -- 96
+format.name$ -- 9
+if$ -- 231
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 3
+pop$ -- 13
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 34
+stack$ -- 0
+substring$ -- 63
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 11
+width$ -- 4
+write$ -- 32
