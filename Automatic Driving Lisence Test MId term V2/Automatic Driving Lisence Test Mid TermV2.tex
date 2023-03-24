@@ -311,16 +311,10 @@ A CNN typically has three layers:
 \end{figure}
 
 \item Fully connected layer: Neurons in this layer have full connectivity with all neurons in the preceding and succeeding layer as seen in regular Forward Convolutional Neural Network(FCNN). This is why it can be computed as usual by a matrix multiplication followed by a bias effect.
-\end{itemize} .\\
+\end{itemize}\\
 
 \subsection{Hough Transform}
-The Hough transform (HT) was firstly proposed in for machine analysis of bubble chamber photographs. It parametrizes straight lines with slope-offset, leading to an unbounded transform space (since the slope can be infinity). extended HT by using angle-radius rather than slope-offset parameters, and is conceptually similar to twodimensional Radom transform . Then generalized the idea of HT to localize arbitrary shapes, e.g. ellipses and circles, from digital images. For example,
-by parameterizing with angle and radius, line detection can be performed by voting edge evidence and finding peak response in the finite parametric space. Typically, with the edge detectors such as Canny  and Sobel , the detected lines are the maximal local response points in the transformed parametric space. The core idea of HT is used in two recent
-works which parameterize the outputs of CNNs with offsets and orientations to predict surface meshes  or convex decomposition  of 3D shapes. Despite the success of HT on line detection, it suffers from high computational costs and unstable performance. To accelerate the voting of HT proposed the “probabilistic Hough transform” to randomly pick sample
-points from a line, while  using the gradient direction of images to decide the voting points. Meanwhile, the work of employed kernel-based Hough transform to perform hough voting by using the elliptical-Gaussian kernel
-on collinear pixels to boost the original HT. Besides partitioned the input image into hierarchical image patches, and then applied HT independently to these patches. Use a coarse-to-fine accumulation and search strategy to identify significant peaks in the
-Hough parametric spaces. tackled line detection within a regularized framework, to suppress the effect of noise and clutter corresponding to nonlinear image features. The
-Hough voting scheme is also used in many other tasks such as detecting centroid of 3D shapes in point cloud and finding image correspondence.
+The Hough transform (HT) was firstly proposed in for machine analysis of bubble chamber photographs. It parametrizes straight lines with slope-offset, leading to an unbounded transform space (since the slope can be infinity). extended HT by using angle-radius rather than slope-offset parameters, and is conceptually similar to two-dimensional Radom transform. Then generalized the idea of HT to localize arbitrary shapes, e.g. ellipses and circles, from digital images. For example, by parameterizing with angle and radius, line detection can be performed by voting edge evidence and finding peak response in the finite parametric space. Typically, with the edge detectors such as Canny  and Sobel , the detected lines are the maximal local response points in the transformed parametric space. The core idea of HT is used in two recent works which parameterize the outputs of CNNs with offsets and orientations to predict surface meshes  or convex decomposition  of 3D shapes. Despite the success of HT on line detection, it suffers from high computational costs and unstable performance. To accelerate the voting of HT proposed the “probabilistic Hough transform” to randomly pick sample points from a line, while  using the gradient direction of images to decide the voting points. Meanwhile, the work of employed kernel-based Hough transform to perform hough voting by using the elliptical-Gaussian kernel on collinear pixels to boost the original HT. Besides partitioned the input image into hierarchical image patches, and then applied HT independently to these patches. Use a coarse-to-fine accumulation and search strategy to identify significant peaks in the Hough parametric spaces. tackled line detection within a regularized framework, to suppress the effect of noise and clutter corresponding to nonlinear image features. The Hough voting scheme is also used in many other tasks such as detecting centroid of 3D shapes in point cloud and finding image correspondence.
 
 \chapter{Methodology}
 Automatic driving license consists of two parts. Object detection and lane detection. Object detection will be used to determine the position of vehicle and the position obtained will be compared with lane. If the position of vehicle is determined to be touching the lane then test will be automatically stopped prompting a message.  
@@ -555,45 +549,45 @@ As part of the "Automated Driving License Test" project, we have made significan
 \subsubsection{Snapshots}
 \subsubsection{Work Done}
 \begin{figure}[!th] % tbh means top, bottom or here (priority: left to right)
-\begin{centre}
+%\begin{centre}
 	%\includegraphics[width = 3in]{images/logo.png}
 	\includegraphics[width = 3in]{images/botpic10.jpg} 
 	\hspace{.5cm}
 	\includegraphics[width = 3in]{images/botpic11.jpg} 
 	%\caption{Scaled Down Car } %figure name
 	\label{figSample1} % for referencing
-\end{centre}
-\begin{centre}
+%\end{centre}
+%\begin{centre}
 	%\includegraphics[width = 3in]{images/logo.png}
 	\includegraphics[width = 3in]{images/botlap.png} 
 	\label{figSample1} % for referencing
-\end{centre}
+%\end{centre}
 \end{figure}
 
 
 \begin{figure}[!tbh] % tbh means top, bottom or here (priority: left to right)
-\begin{center}
+\%begin{center}
 	%\includegraphics[width = 3in]{images/logo.png}
 	\includegraphics[width = 3in]{images/botpid7.jpg}
 	\hspace{.5cm}
 	\includegraphics[width = 3in]{images/botpic8.jpg}
 	%\caption{Scaled Down Car } %figure name
 	\label{figSample1} % for referencing
-\end{centre}
+%\end{centre}
 \end{figure}
 
 
 
-\subsubsubsection{Work in Process}
+\subsubsection{Work in Process}
 \begin{figure}[!tbh] % tbh means top, bottom or here (priority: left to right)
-\begin{centre}
+%\begin{centre}
 	%\includegraphics[width = 3in]{images/logo.png}
 	\includegraphics[width = 3in]{images/work in process1.jpg} 
 	\hspace{.5cm}
 	\includegraphics[width = 3in]{images/work in process2.jpg} 
 	%\caption{Scaled Down Car } %figure name
 	\label{figSample1} % for referencing
-\end{centre}
+%\end{centre}
 \end{figure}
 
 \end{document}

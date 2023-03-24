@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.20)  13 MAR 2023 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.20)  24 MAR 2023 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -617,163 +617,147 @@ l.126
 
 ] [2] [3] [4] [5]
 Chapter 2.
-
-LaTeX Warning: Citation `femto_anup' on page 6 undefined on input line 218.
-
-
-LaTeX Warning: Citation `bordia2020automated' on page 6 undefined on input line
- 221.
-
 [6
 
 ]
-
-LaTeX Warning: Citation `bordia2020automated' on page 7 undefined on input line
- 230.
-
-<images/artificialneuron.png, id=289, 199.49532pt x 134.75343pt>
+<images/artificialneuron.png, id=294, 199.49532pt x 134.75343pt>
 File: images/artificialneuron.png Graphic file (type png)
 <use images/artificialneuron.png>
 Package pdftex.def Info: images/artificialneuron.png  used on input line 242.
 (pdftex.def)             Requested size: 216.81pt x 146.45474pt.
-[7 <./images/artificialneuron.png>]
-<images/structure.png, id=295, 290.58563pt x 205.5178pt>
+ [7 <./images/artificialneuron.png>]
+<images/structure.png, id=301, 290.58563pt x 205.5178pt>
 File: images/structure.png Graphic file (type png)
 <use images/structure.png>
 Package pdftex.def Info: images/structure.png  used on input line 261.
 (pdftex.def)             Requested size: 216.81pt x 153.34145pt.
  [8 <./images/structure.png>]
-<images/cnn.png, id=301, 517.935pt x 284.56313pt>
+<images/cnn.png, id=307, 517.935pt x 284.56313pt>
 File: images/cnn.png Graphic file (type png)
 <use images/cnn.png>
 Package pdftex.def Info: images/cnn.png  used on input line 282.
 (pdftex.def)             Requested size: 361.34999pt x 198.5415pt.
-<images/activationmap.png, id=302, 575.90157pt x 505.89pt>
+<images/activationmap.png, id=308, 575.90157pt x 505.89pt>
 File: images/activationmap.png Graphic file (type png)
 <use images/activationmap.png>
 Package pdftex.def Info: images/activationmap.png  used on input line 296.
 (pdftex.def)             Requested size: 144.54pt x 126.96622pt.
  [9 <./images/cnn.png> <./images/activationmap.png>]
-<images/pooling.png, id=309, 554.07pt x 283.81032pt>
+<images/pooling.png, id=315, 554.07pt x 283.81032pt>
 File: images/pooling.png Graphic file (type png)
 <use images/pooling.png>
 Package pdftex.def Info: images/pooling.png  used on input line 307.
 (pdftex.def)             Requested size: 289.07999pt x 148.0759pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
- []
-
-
-! LaTeX Error: Unicode character ^^B (U+0002)
-               not set up for use with LaTeX.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 ...rs, and is conceptually similar to two^^B
-                                                  dimensional Radom transfor...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
+l.315 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [10 <./images/pooling.png>] [11]
 Chapter 3.
-<images/system flowchart changed.png, id=319, 708.6475pt x 1054.94125pt>
+<images/system flowchart changed.png, id=325, 708.6475pt x 1054.94125pt>
 File: images/system flowchart changed.png Graphic file (type png)
 <use images/system flowchart changed.png>
 Package pdftex.def Info: images/system flowchart changed.png  used on input lin
-e 332.
+e 326.
 (pdftex.def)             Requested size: 289.07999pt x 430.3556pt.
-<images/block diagram of system.jpg, id=320, 659.46375pt x 365.56575pt>
+<images/block diagram of system.jpg, id=326, 659.46375pt x 365.56575pt>
 File: images/block diagram of system.jpg Graphic file (type jpg)
 <use images/block diagram of system.jpg>
 Package pdftex.def Info: images/block diagram of system.jpg  used on input line
- 342.
+ 336.
 (pdftex.def)             Requested size: 289.07999pt x 160.25256pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 [12
 
  <./images/system flowchart changed.png>]
-<images/yolo.png, id=327, 587.19376pt x 407.27156pt>
+<images/yolo.png, id=333, 587.19376pt x 407.27156pt>
 File: images/yolo.png Graphic file (type png)
 <use images/yolo.png>
-Package pdftex.def Info: images/yolo.png  used on input line 356.
+Package pdftex.def Info: images/yolo.png  used on input line 350.
 (pdftex.def)             Requested size: 289.07999pt x 200.50319pt.
  [13 <./images/block diagram of system.jpg> <./images/yolo.png>]
-<images/lane detection.png, id=333, 268.00125pt x 413.545pt>
+<images/lane detection.png, id=339, 268.00125pt x 413.545pt>
 File: images/lane detection.png Graphic file (type png)
 <use images/lane detection.png>
-Package pdftex.def Info: images/lane detection.png  used on input line 376.
+Package pdftex.def Info: images/lane detection.png  used on input line 370.
 (pdftex.def)             Requested size: 187.34604pt x 289.07999pt.
-<images/block diagram of car.jpg, id=334, 762.4485pt x 410.7345pt>
+<images/block diagram of car.jpg, id=340, 762.4485pt x 410.7345pt>
 File: images/block diagram of car.jpg Graphic file (type jpg)
 <use images/block diagram of car.jpg>
 Package pdftex.def Info: images/block diagram of car.jpg  used on input line 38
-8.
+2.
 (pdftex.def)             Requested size: 289.07999pt x 155.72975pt.
  [14 <./images/lane detection.png>] [15 <./images/block diagram of car.jpg>]
 Chapter 4.
-<images/linet.png, id=344, 240.9pt x 192.72pt>
+<images/linet.png, id=350, 240.9pt x 192.72pt>
 File: images/linet.png Graphic file (type png)
 <use images/linet.png>
-Package pdftex.def Info: images/linet.png  used on input line 429.
+Package pdftex.def Info: images/linet.png  used on input line 423.
 (pdftex.def)             Requested size: 216.81pt x 173.45226pt.
 [16
 
 ]
-<images/linetr.png, id=359, 160.34906pt x 18.0675pt>
+<images/linetr.png, id=365, 160.34906pt x 18.0675pt>
 File: images/linetr.png Graphic file (type png)
 <use images/linetr.png>
-Package pdftex.def Info: images/linetr.png  used on input line 437.
+Package pdftex.def Info: images/linetr.png  used on input line 431.
 (pdftex.def)             Requested size: 144.54pt x 16.2865pt.
-<images/linent.png, id=360, 205.5178pt x 200.24812pt>
+<images/linent.png, id=366, 205.5178pt x 200.24812pt>
 File: images/linent.png Graphic file (type png)
 <use images/linent.png>
-Package pdftex.def Info: images/linent.png  used on input line 446.
+Package pdftex.def Info: images/linent.png  used on input line 440.
 (pdftex.def)             Requested size: 216.81pt x 211.25061pt.
-<images/linentr.png, id=361, 146.79843pt x 20.32594pt>
+<images/linentr.png, id=367, 146.79843pt x 20.32594pt>
 File: images/linentr.png Graphic file (type png)
 <use images/linentr.png>
-Package pdftex.def Info: images/linentr.png  used on input line 454.
+Package pdftex.def Info: images/linentr.png  used on input line 448.
 (pdftex.def)             Requested size: 144.54pt x 20.01324pt.
  [17 <./images/linet.png> <./images/linetr.png> <./images/linent.png>]
-<images/accuracy65epoch.jpg, id=373, 907.39pt x 575.14874pt>
+<images/accuracy65epoch.jpg, id=379, 907.39pt x 575.14874pt>
 File: images/accuracy65epoch.jpg Graphic file (type jpg)
 <use images/accuracy65epoch.jpg>
-Package pdftex.def Info: images/accuracy65epoch.jpg  used on input line 463.
+Package pdftex.def Info: images/accuracy65epoch.jpg  used on input line 457.
 (pdftex.def)             Requested size: 289.07999pt x 183.23518pt.
-<images/loss.jpg, id=374, 660.4675pt x 475.7775pt>
+<images/loss.jpg, id=380, 660.4675pt x 475.7775pt>
 File: images/loss.jpg Graphic file (type jpg)
 <use images/loss.jpg>
-Package pdftex.def Info: images/loss.jpg  used on input line 472.
+Package pdftex.def Info: images/loss.jpg  used on input line 466.
 (pdftex.def)             Requested size: 289.07999pt x 208.2465pt.
-<images/Epoch VS Val_box_loss.pdf, id=375, 1175.39125pt x 729.72626pt>
+<images/Epoch VS Val_box_loss.pdf, id=381, 1175.39125pt x 729.72626pt>
 File: images/Epoch VS Val_box_loss.pdf Graphic file (type pdf)
 <use images/Epoch VS Val_box_loss.pdf>
 Package pdftex.def Info: images/Epoch VS Val_box_loss.pdf  used on input line 4
-81.
+75.
 (pdftex.def)             Requested size: 289.07999pt x 179.46928pt.
 
 [18 <./images/linentr.png> <./images/accuracy65epoch.jpg> <./images/loss.jpg>]
-<images/Epoch VS Train_obj_loss.pdf, id=384, 1179.40625pt x 728.7225pt>
+<images/Epoch VS Train_obj_loss.pdf, id=390, 1179.40625pt x 728.7225pt>
 File: images/Epoch VS Train_obj_loss.pdf Graphic file (type pdf)
 <use images/Epoch VS Train_obj_loss.pdf>
 Package pdftex.def Info: images/Epoch VS Train_obj_loss.pdf  used on input line
- 490.
+ 484.
 (pdftex.def)             Requested size: 289.07999pt x 178.61084pt.
-<images/ganttchart.png, id=385, 890.5772pt x 452.4403pt>
+<images/ganttchart.png, id=391, 890.5772pt x 452.4403pt>
 File: images/ganttchart.png Graphic file (type png)
 <use images/ganttchart.png>
-Package pdftex.def Info: images/ganttchart.png  used on input line 503.
+Package pdftex.def Info: images/ganttchart.png  used on input line 497.
 (pdftex.def)             Requested size: 505.89pt x 257.00998pt.
 
-Overfull \hbox (89.05711pt too wide) in paragraph at lines 503--504
+Overfull \hbox (89.05711pt too wide) in paragraph at lines 497--498
  [] 
  []
 
@@ -781,188 +765,86 @@ Overfull \hbox (89.05711pt too wide) in paragraph at lines 503--504
 
 pdfTeX warning: pdflatex (file ./images/Epoch VS Train_obj_loss.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->]
-No file "Automatic Driving Lisence Test Mid TermV2".bbl.
-[20 <./images/ganttchart.png>]
+>] (Automatic Driving Lisence Test Mid TermV2.bbl [20 <./images/ganttchart.png>
+]) [21
 
-! LaTeX Error: Environment centre undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.558 \begin{centre}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/botpic10.jpg, id=428, 4625.28pt x 2184.16pt>
+]
+<images/botpic10.jpg, id=438, 4625.28pt x 2184.16pt>
 File: images/botpic10.jpg Graphic file (type jpg)
 <use images/botpic10.jpg>
-Package pdftex.def Info: images/botpic10.jpg  used on input line 560.
+Package pdftex.def Info: images/botpic10.jpg  used on input line 554.
 (pdftex.def)             Requested size: 216.81pt x 102.38225pt.
-<images/botpic11.jpg, id=429, 4625.28pt x 2184.16pt>
+<images/botpic11.jpg, id=439, 4625.28pt x 2184.16pt>
 File: images/botpic11.jpg Graphic file (type jpg)
 <use images/botpic11.jpg>
-Package pdftex.def Info: images/botpic11.jpg  used on input line 562.
+Package pdftex.def Info: images/botpic11.jpg  used on input line 556.
 (pdftex.def)             Requested size: 216.81pt x 102.38225pt.
-
-! LaTeX Error: \begin{figure} on input line 557 ended by \end{centre}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.565 \end{centre}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment centre undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.566 \begin{centre}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/botlap.png, id=430, 1927.2pt x 1084.05pt>
+<images/botlap.png, id=440, 1927.2pt x 1084.05pt>
 File: images/botlap.png Graphic file (type png)
 <use images/botlap.png>
-Package pdftex.def Info: images/botlap.png  used on input line 568.
+Package pdftex.def Info: images/botlap.png  used on input line 562.
 (pdftex.def)             Requested size: 216.81pt x 121.9421pt.
 
-! LaTeX Error: \begin{figure} on input line 557 ended by \end{centre}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.570 \end{centre}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (35.57353pt too wide) in paragraph at lines 560--571
+Overfull \hbox (35.57353pt too wide) in paragraph at lines 554--565
 [][]   []
  []
 
-<images/botpid7.jpg, id=431, 4625.28pt x 2184.16pt>
+<images/botpid7.jpg, id=441, 4625.28pt x 2184.16pt>
 File: images/botpid7.jpg Graphic file (type jpg)
 <use images/botpid7.jpg>
-Package pdftex.def Info: images/botpid7.jpg  used on input line 577.
+Package pdftex.def Info: images/botpid7.jpg  used on input line 571.
 (pdftex.def)             Requested size: 216.81pt x 102.38225pt.
-<images/botpic8.jpg, id=432, 4625.28pt x 2184.16pt>
+<images/botpic8.jpg, id=442, 4625.28pt x 2184.16pt>
 File: images/botpic8.jpg Graphic file (type jpg)
 <use images/botpic8.jpg>
-Package pdftex.def Info: images/botpic8.jpg  used on input line 579.
+Package pdftex.def Info: images/botpic8.jpg  used on input line 573.
 (pdftex.def)             Requested size: 216.81pt x 102.38225pt.
 
-! LaTeX Error: \begin{center} on input line 575 ended by \end{centre}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.582 \end{centre}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (35.57353pt too wide) in paragraph at lines 577--583
-[][]   []
+Underfull \hbox (badness 10000) in paragraph at lines 569--577
+[]\OT1/ptm/m/n/12 %begincenter []
  []
 
-! Undefined control sequence.
-l.587 \subsubsubsection
-                       {Work in Process}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment centre undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.589 \begin{centre}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/work in process1.jpg, id=433, 1734.48pt x 819.06pt>
+<images/work in process1.jpg, id=443, 1734.48pt x 819.06pt>
 File: images/work in process1.jpg Graphic file (type jpg)
 <use images/work in process1.jpg>
-Package pdftex.def Info: images/work in process1.jpg  used on input line 591.
+Package pdftex.def Info: images/work in process1.jpg  used on input line 585.
 (pdftex.def)             Requested size: 216.81pt x 102.38225pt.
-<images/work in process2.jpg, id=434, 1734.48pt x 819.06pt>
+<images/work in process2.jpg, id=444, 1734.48pt x 819.06pt>
 File: images/work in process2.jpg Graphic file (type jpg)
 <use images/work in process2.jpg>
-Package pdftex.def Info: images/work in process2.jpg  used on input line 593.
+Package pdftex.def Info: images/work in process2.jpg  used on input line 587.
 (pdftex.def)             Requested size: 216.81pt x 102.38225pt.
 
-! LaTeX Error: \begin{figure} on input line 588 ended by \end{centre}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.596 \end{centre}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (35.57353pt too wide) in paragraph at lines 591--597
+Overfull \hbox (35.57353pt too wide) in paragraph at lines 585--591
 [][]   []
  []
 
-[21 <./images/botpic10.jpg> <./images/botpic11.jpg> <./images/botlap.png> <./im
-ages/botpid7.jpg> <./images/botpic8.jpg> <./images/work in process1.jpg> <./ima
-ges/work in process2.jpg>] (Automatic Driving Lisence Test Mid TermV2.aux)
-
-LaTeX Warning: There were undefined references.
-
+[22 <./images/botpic10.jpg> <./images/botpic11.jpg> <./images/botlap.png> <./im
+ages/botpid7.jpg> <./images/botpic8.jpg>] [23 <./images/work in process1.jpg> <
+./images/work in process2.jpg>] (Automatic Driving Lisence Test Mid TermV2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"Automatic Driving Lisence Test Mid TermV2".
 out' has not changed.
-(rerunfilecheck)             Checksum: 26860831ED7A37567177C34DB81D8622;4608.
+(rerunfilecheck)             Checksum: 3559AC71C48E334FE62B0DC8604C1F05;4603.
  ) 
 Here is how much of TeX's memory you used:
- 16463 strings out of 476374
- 305175 string characters out of 5805272
+ 16472 strings out of 476374
+ 305619 string characters out of 5805272
  1861340 words of memory out of 5000000
- 36504 multiletter control sequences out of 15000+600000
- 533235 words of font info for 72 fonts, out of 8000000 for 9000
+ 36506 multiletter control sequences out of 15000+600000
+ 533237 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,9n,82p,1052b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 82i,9n,82p,2058b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/miktex/fonts/enc/dvips/base/8r.enc}<C:/miktex/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><C:/miktex/fonts/type1/urw/times/utmb8a.pfb><C:/miktex/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a.pfb><C:/miktex
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Automatic Driving Lisence Test Mid TermV2.pdf" (28 pages, 12
-875534 bytes).
+Output written on "Automatic Driving Lisence Test Mid TermV2.pdf" (30 pages, 12
+883425 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
  408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
