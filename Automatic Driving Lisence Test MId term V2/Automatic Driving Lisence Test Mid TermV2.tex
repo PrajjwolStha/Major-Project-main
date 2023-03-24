@@ -217,8 +217,9 @@ In the last few years with the rise in affordable compute power and abundance of
 Computer vision is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos. Computer vision tasks include methods for acquiring, processing, analyzing and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information.\\
 The task of automating driving license test can be accomplished in two different ways. A hardware based driving license test by interfacing Arduino UNO board with number of sensors can be implement at low cost. This automated system is done by interfacing Arduino UNO board with number of sensors, these sensors are kept on the test track to identify the errors of the candidate while he is taking the test. Arduino UNO microcontroller reads the data collected by sensors, processes them and send the result information to the candidate and authorities of Regional Transport Office (RTO) whether he/she is passed or failed to get a driving license\cite{femto_anup}. Main drawback of using a hardware based automation system is the need to align sensor every time a tester fails the test by colliding with the sensor. 
 \\
+Chen, Weina et al.[2017] \cite{chen} gave a lane marking detection algorithm both geometry and modified Hough Transform. The algorithm divided the image captured into road part and non road part by using camera geometry information. 
 The problems of hardware implementation can be solved by implementing a software based testing system. Pole mounted camera along the entire length of test track can be deployed to determine the position of vehicle. A smartphone mounted on the front windscreen can be deployed to use its camera and sensors to determine the position of vehicle.
-HAMS, in its general incarnation, uses the smartphone’s front and rear cameras, and other sensors, to monitor the driver (for instance, their gaze) and the road scene in front (for instance, the distance to the vehicle in front), simultaneously. It employs advanced Artificial Intelligence (AI) models, which the team has developed for efficient and robust operation\cite{bordia2020automated}.[2]
+HAMS, in its general incarnation, uses the smartphone’s front and rear cameras, and other sensors, to monitor the driver (for instance, their gaze) and the road scene in front (for instance, the distance to the vehicle in front), simultaneously. It employs advanced Artificial Intelligence (AI) models, which the team has developed for efficient and robust operation\cite{bordia2020automated}.
 
 
    
@@ -227,7 +228,7 @@ HAMS, in its general incarnation, uses the smartphone’s front and rear cameras
 \section{Related Theory}
 \subsection{Artificial Neural Network(ANN)}
 Artificial neural networks (ANN) are computing systems vaguely inspired by the biological neural networks that constitute animal brains. Such systems "learn" to perform tasks by considering examples, generally without being programmed with
-task-specific rules\cite{bordia2020automated}.[3]
+task-specific rules\cite{bordia2020automated}.
 
 \subsubsection{Neurons}
 ANNs are composed of artificial neurons which retain the biological concept of
@@ -311,7 +312,7 @@ A CNN typically has three layers:
 \end{figure}
 
 \item Fully connected layer: Neurons in this layer have full connectivity with all neurons in the preceding and succeeding layer as seen in regular Forward Convolutional Neural Network(FCNN). This is why it can be computed as usual by a matrix multiplication followed by a bias effect.
-\end{itemize}\\
+\end{itemize}
 
 \subsection{Hough Transform}
 The Hough transform (HT) was firstly proposed in for machine analysis of bubble chamber photographs. It parametrizes straight lines with slope-offset, leading to an unbounded transform space (since the slope can be infinity). extended HT by using angle-radius rather than slope-offset parameters, and is conceptually similar to two-dimensional Radom transform. Then generalized the idea of HT to localize arbitrary shapes, e.g. ellipses and circles, from digital images. For example, by parameterizing with angle and radius, line detection can be performed by voting edge evidence and finding peak response in the finite parametric space. Typically, with the edge detectors such as Canny  and Sobel , the detected lines are the maximal local response points in the transformed parametric space. The core idea of HT is used in two recent works which parameterize the outputs of CNNs with offsets and orientations to predict surface meshes  or convex decomposition  of 3D shapes. Despite the success of HT on line detection, it suffers from high computational costs and unstable performance. To accelerate the voting of HT proposed the “probabilistic Hough transform” to randomly pick sample points from a line, while  using the gradient direction of images to decide the voting points. Meanwhile, the work of employed kernel-based Hough transform to perform hough voting by using the elliptical-Gaussian kernel on collinear pixels to boost the original HT. Besides partitioned the input image into hierarchical image patches, and then applied HT independently to these patches. Use a coarse-to-fine accumulation and search strategy to identify significant peaks in the Hough parametric spaces. tackled line detection within a regularized framework, to suppress the effect of noise and clutter corresponding to nonlinear image features. The Hough voting scheme is also used in many other tasks such as detecting centroid of 3D shapes in point cloud and finding image correspondence.
@@ -533,17 +534,6 @@ As part of the "Automated Driving License Test" project, we have made significan
 \label{tblCostEstimationTable}
 \end{table}
 
-%Reference
-\bibliography{reference.bib} % specify the .bib file containing reference information 
-\renewcommand\bibname{References} % Change heading to References
-\bibliographystyle{IEEEtr} % to use IEEE Format for referencing
-\addcontentsline{toc}{chapter}{References} % to add references in TOC
-
-
-
-
-
-\newpage
 
 %\chapter{}
 \subsubsection{Snapshots}
@@ -589,5 +579,9 @@ As part of the "Automated Driving License Test" project, we have made significan
 	\label{figSample1} % for referencing
 %\end{centre}
 \end{figure}
+\bibliography{reference.bib} % specify the .bib file containing reference information 
+\renewcommand\bibname{References} % Change heading to References
+\bibliographystyle{IEEEtr} % to use IEEE Format for referencing
+\addcontentsline{toc}{chapter}{References} % to add references in TOC
 
 \end{document}

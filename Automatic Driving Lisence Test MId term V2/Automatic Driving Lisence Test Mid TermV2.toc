@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {4.4}Result}{17}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Work Scheduled}{20}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Cost Estimation}{20}{section.4.6}%
-\contentsline {chapter}{References}{21}{chapter*.26}%
-\contentsline {subsubsection}{Snapshots}{22}{chapter*.26}%
-\contentsline {subsubsection}{Work Done}{22}{chapter*.26}%
-\contentsline {subsubsection}{Work in Process}{22}{figure.caption.28}%
+\contentsline {subsubsection}{Snapshots}{21}{table.caption.25}%
+\contentsline {subsubsection}{Work Done}{21}{table.caption.25}%
+\contentsline {subsubsection}{Work in Process}{21}{figure.caption.27}%
+\contentsline {chapter}{References}{23}{chapter*.29}%
