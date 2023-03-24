@@ -5,44 +5,47 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: IEEEtr.bst
 Database file #1: reference.bib
-You've used 2 entries,
+Warning--empty booktitle in chen
+Warning--empty publisher in chen
+You've used 3 entries,
             1876 wiz_defined-function locations,
-            490 strings with 4054 characters,
-and the built_in function-call counts, 677 in all, are:
-= -- 60
-> -- 25
+            497 strings with 4254 characters,
+and the built_in function-call counts, 1043 in all, are:
+= -- 93
+> -- 39
 < -- 0
-+ -- 9
-- -- 7
-* -- 48
-:= -- 97
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 2
++ -- 14
+- -- 11
+* -- 78
+:= -- 144
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 37
-empty$ -- 71
-format.name$ -- 7
-if$ -- 166
+cite$ -- 5
+duplicate$ -- 55
+empty$ -- 107
+format.name$ -- 11
+if$ -- 257
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 9
-num.names$ -- 2
-pop$ -- 12
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 3
+pop$ -- 18
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 25
+skip$ -- 40
 stack$ -- 0
-substring$ -- 44
-swap$ -- 14
+substring$ -- 72
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 7
-width$ -- 3
-write$ -- 21
+warning$ -- 2
+while$ -- 10
+width$ -- 4
+write$ -- 30
+(There were 2 warnings)
