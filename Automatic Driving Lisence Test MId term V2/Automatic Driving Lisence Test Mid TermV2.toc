@@ -17,10 +17,10 @@
 \contentsline {subsection}{\numberline {1.7.3}Economic Feasibility}{5}{subsection.1.7.3}%
 \contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Previous Works}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Related Theory}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Artificial Neural Network(ANN)}{7}{subsection.2.2.1}%
-\contentsline {subsubsection}{Neurons}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Convolutional Neural Network(CNN)}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.2}Related Theory}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Artificial Neural Network(ANN)}{8}{subsection.2.2.1}%
+\contentsline {subsubsection}{Neurons}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Convolutional Neural Network(CNN)}{9}{subsection.2.2.2}%
 \contentsline {subsubsection}{Design}{9}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Hough Transform}{11}{subsection.2.2.3}%
 \contentsline {chapter}{\numberline {3}Methodology}{13}{chapter.3}%
@@ -28,13 +28,16 @@
 \contentsline {section}{\numberline {3.2}Lane Detection}{15}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Testing}{16}{subsection.3.2.1}%
 \contentsline {chapter}{\numberline {4}Epilogue}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Work Completed}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Work in Process}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Work Remaining}{17}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Result}{18}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Work Scheduled}{21}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Cost Estimation}{21}{section.4.6}%
+\contentsline {section}{\numberline {4.1}Result}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Conclusion}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Future Implementation}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Work Completed}{17}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Work in Process}{17}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Work Remaining}{18}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Result}{18}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Work Scheduled}{21}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Cost Estimation}{21}{section.4.9}%
 \contentsline {subsubsection}{Snapshots}{22}{table.caption.25}%
 \contentsline {subsubsection}{Work Done}{22}{table.caption.25}%
 \contentsline {subsubsection}{Work in Process}{22}{figure.caption.27}%
-\contentsline {chapter}{References}{24}{chapter*.29}%
+\contentsline {chapter}{References}{25}{chapter*.29}%

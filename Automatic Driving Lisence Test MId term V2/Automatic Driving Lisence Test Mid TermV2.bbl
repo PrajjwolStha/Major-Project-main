@@ -6,10 +6,41 @@ A.~{Chaudhari} and C.~S.~R. {Murthy}, ``Femto-to-femto (f2f) communication: The
   International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and
   Wireless Networks (WiOpt)}, pp.~1--8, May 2017.
 
+\bibitem{indoor}
+P.~Bencak, D.~Hercog, and T.~Lerher, ``Indoor positioning system based on
+  bluetooth low energy technology and a nature-inspired optimization
+  algorithm,'' {\em Electronics}, vol.~11, no.~3, 2022.
+
+\bibitem{localization}
+M.~A. Fadzilla, A.~Harun, and A.~B. Shahriman, ``Localization assessment for
+  asset tracking deployment by comparing an indoor localization system with a
+  possible outdoor localization system,'' in {\em 2018 International Conference
+  on Computational Approach in Smart Systems Design and Applications
+  (ICASSDA)}, pp.~1--6, 2018.
+
+\bibitem{MRIPS}
+G.~M. Mendoza-Silva, J.~Torres-Sospedra, and J.~Huerta, ``A meta-review of
+  indoor positioning systems,'' {\em Sensors}, vol.~19, no.~20, 2019.
+
+\bibitem{visiblelightcomm}
+L.~U. Khan, ``Visible light communication: Applications, architecture,
+  standardization and research challenges,'' {\em Digital Communications and
+  Networks}, vol.~3, no.~2, pp.~78--88, 2017.
+
+\bibitem{pastpresentandfutureofsimlocmap}
+C.~Cadena, L.~Carlone, H.~Carrillo, Y.~Latif, D.~Scaramuzza, J.~Neira, I.~Reid,
+  and J.~J. Leonard, ``Past, present, and future of simultaneous localization
+  and mapping: Toward the robust-perception age,'' {\em IEEE Transactions on
+  Robotics}, vol.~32, no.~6, pp.~1309--1332, 2016.
+
 \bibitem{chen}
 W.~Chen, Q.~Zeng, J.~Liu, and H.~Wang, ``Seamless autonomous navigation based
-  on the motion constraint of the mobile robot,'' vol.~44, pp.~178--188, 03
-  2017.
+  on the motion constraint of the mobile robot,'' {\em Industrial Robot: An
+  International Journal}, vol.~44, pp.~178--188, 03 2017.
+
+\bibitem{improvedcannyedge}
+R.~Liu and J.~Mao, ``Research on improved canny edge detection algorithm,''
+  {\em MATEC Web of Conferences}, vol.~232, p.~03053, 01 2018.
 
 \bibitem{bordia2020automated}
 B.~Bordia, N.~Nishanth, S.~Patel, M.~Anand~Kumar, and B.~Rudra, ``Automated

@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Artificial Neuron\relax }}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure of Neural Network\relax }}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure of Neural Network\relax }}{9}{figure.caption.7}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Basic schematic of Convolutional Neural Network(CNN)\relax }}{10}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Activation Map\relax }}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Pooling Operation\relax }}{11}{figure.caption.10}%
@@ -17,7 +17,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces example of result prediction\relax }}{18}{figure.caption.17}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces example of result prediction\relax }}{19}{figure.caption.19}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Accuracy\relax }}{19}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Loss\relax }}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Loss\relax }}{20}{figure.caption.21}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Epoch VS Val box loss for YOLO\relax }}{20}{figure.caption.22}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Epoch VS Train obj loss for YOLO\relax }}{20}{figure.caption.23}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Gantt Chart\relax }}{21}{figure.caption.24}%
