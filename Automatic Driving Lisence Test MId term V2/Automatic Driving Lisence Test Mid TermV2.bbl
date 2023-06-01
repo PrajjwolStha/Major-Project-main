@@ -1,4 +1,12 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{fivethousandapplicants}
+Republica, ``5,000 applications for driving license to be processed daily,''
+  2021.
+
+\bibitem{twoyearwait}
+Republica, ``Applicants of driving license exams forced to wait for two years
+  for their turn,'' 2021.
 
 \bibitem{femto_anup}
 A.~{Chaudhari} and C.~S.~R. {Murthy}, ``Femto-to-femto (f2f) communication: The
@@ -47,5 +55,25 @@ B.~Bordia, N.~Nishanth, S.~Patel, M.~Anand~Kumar, and B.~Rudra, ``Automated
   traffic light signal violation detection system using convolutional neural
   network,'' in {\em Soft Computing: Theories and Applications}, pp.~579--592,
   Springer, 2020.
+
+\bibitem{nervousactivity}
+W.~Mcculloch and W.~Pitts, ``A logical calculus of ideas immanent in nervous
+  activity,'' {\em Bulletin of Mathematical Biophysics}, vol.~5, pp.~127--147,
+  1943.
+
+\bibitem{introtoann}
+E.~Grossi and M.~Buscema, ``Introduction to artificial neural networks,'' {\em
+  European journal of gastroenterology & hepatology}, vol.~19, pp.~1046--54, 01
+  2008.
+
+\bibitem{hubel:monkey}
+D.~H. Hubel and T.~N. Wiesel, ``Receptive fields and functional architecture of
+  monkey striate cortex,'' {\em Journal of Physiology (London)}, vol.~195,
+  pp.~215--243, 1968.
+
+\bibitem{fukushima:neocognitronbc}
+K.~Fukushima, ``{N}eocognitron: {A} self-organizing neural network model for a
+  mechanism of pattern recognition unaffected by shift in position,'' {\em
+  Biological Cybernetics}, vol.~36, pp.~193--202, 1980.
 
 \end{thebibliography}

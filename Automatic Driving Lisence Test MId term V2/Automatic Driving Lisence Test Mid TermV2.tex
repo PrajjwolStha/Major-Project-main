@@ -2,40 +2,46 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Define Macros for Details of your Project
 \newcommand{\project}{Major Project} %Specify "Major Project" or "Minor Project"
-\newcommand{\projectTitle}{Automated Driving license test} %specify "Title" of Your Project
-\newcommand{\doc}{Mid-Term Report} % specify the document you are preparing eg. "Proposal", "Mid-Term Report" or "Final Report" 
+\newcommand{\projectTitle}{Automated Driving License Test} %specify "Title" of Your Project
+\newcommand{\doc}{Final Report} % specify the document you are preparing eg. "Proposal", "Mid-Term Report" or "Final Report" 
 % Note that You have to sibmit "Final Report" for Pre-final defense as well.
 \newcommand{\subCode}{EX707} %specify Subject of Your Project
 \newcommand{\degree}{Bachelor in Electronics, Communication and Information Technology Engineering} %specify your degree
 \newcommand{\submittedBy}%Specify Names and Roll/Symbol Numbers of the Project Group Members
 {
 %Edit Member Names and Roll/Symbol No. and adjust width (\makebox[width]) if necessary 
-\makebox[8cm]{Nitesh Poudel \hfill [KAN075BEI03]}\\
-\makebox[8cm]{Pawan Bhandari \hfill [KAN075BEI04]}\\
-\makebox[8cm]{Prajjwol Shrestha \hfill [KAN075BEI05]}\\
-\makebox[8cm]{Ujjwal Naral \hfill [KAN075BEI09]}
+\makebox[8cm]{Nitesh Poudel \hfill [41052]}\\
+\makebox[8cm]{Pawan Bhandari \hfill [41053]}\\
+\makebox[8cm]{Prajjwol Shrestha \hfill [41054]}\\
+\makebox[8cm]{Ujjwal Naral \hfill [41057]}
 %\makebox[9cm]{Member Name \hfill [Roll/Symbol No.]}\\
 } % Note that You must write your "Symbol Numbers"(Exam Roll Numbers) for Final Defenses
 
 \newcommand{\submittedTo}{Department of Computer and Electronics Engineering} %specify your department
 \newcommand{\hod}{Er. Rabindra Khati} %specify Head ot the department
-\newcommand{\defYear}{2022} %Defense Year
-\newcommand{\defMonth}{December} %Defense Month- January, February, ...
-\newcommand{\defDay}{29} %specify Defense Day- 1, 2, ...
+\newcommand{\defYear}{2023} %Defense Year
+\newcommand{\defMonth}{April} %Defense Month- January, February, ...
+\newcommand{\defDay}{27} %specify Defense Day- 1, 2, ...
 
-\newcommand{\supervisor}{none} % Specify Name of Supervisor for Major Project (write "none" if no Supervisor is assigned)
-\newcommand{\degSup}{Supervisor's Designation\\Second Line of Designation (if required)} %Specify Designation of Supervisor for Major Project, use multiple lines (\\) if necessary
+\newcommand{\supervisor}{Sachin Shrestha} % Specify Name of Supervisor for Major Project (write "none" if no Supervisor is assigned)
+\newcommand{\degSup}{Nepal Engineering College)} %Specify Designation of Supervisor for Major Project, use multiple lines (\\) if necessary
 \newcommand{\external}{External's Name} %Specify Name of External for Major Project (Required for Black Book)
 \newcommand{\degExternal}{External's Designation\\Second Line of Designation (if required)} %Specify Name of External for Major Project (Required for Black Book) , use multiple lines (\\) if necessary
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Define Abberviations and Symbols
+% NOTE that Only those Abberviations and Symbols that are included in document(using command \ac{}) will be displayed in the List of Abberviations and Symbols.
+
+%class 'abbr': for List of Abbreviations
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %The Document
 \begin{document}
+
 
 \KECcoverpage % command defined in KECReportFormat
 \KECtitlepage % command defined in KECReportFormat
@@ -56,12 +62,10 @@ In the traditional method of administering driving license exams, a human evalua
 The "Automated Driving License Test" project aims to address these issues by replacing manual supervision with a software solution. The software utilizes various Python libraries to capture frames of the exam and processes these frames to determine the candidate's performance. This allows for a more efficient and accurate evaluation of the candidate's driving skills.
 
 One of the key benefits of this project is the increased efficiency it brings to the testing process. With the automated system, exams can be conducted more quickly and with less human involvement, freeing up time for other tasks. In addition, the use of a software system for evaluation reduces the potential for human error, providing a more objective assessment of the candidate's performance.
-
 Overall, the "Automated Driving License Test" project has the potential to revolutionize the way driving license exams are conducted. By replacing manual supervision with a software solution, this project brings increased efficiency, accuracy, and objectivity to the testing process. It could be implemented in driving schools and licensing agencies, helping to ensure that only safe and competent drivers are granted a license to operate a motor vehicle.
 
-
-\par
-\textbf{\textit{Keywords$-$}} \emph{Driving test automation,object detection, image processing}
+\textbf{\textit{Keywords$-$}} 
+\emph{Driving test automation,object detection, image processing}
 
 %\chapter*{Acknowledgment}
 %\addcontentsline{toc}{chapter}{Acknowledgment}%to include this chapter in TOC
@@ -110,7 +114,7 @@ Overall, the "Automated Driving License Test" project has the potential to revol
 
 \chapter{Introduction}
 \section{Background}\label{sec:bkgrnd}%label your section if you require to refer them somewhere else in your document. 	
- Obtaining a driver's license is a crucial milestone for many individuals, as it allows them to operate a motor vehicle and provides a sense of independence and freedom. In order to obtain a driver's license, individuals must pass a driving exam that tests their knowledge of traffic laws and their ability to safely operate a vehicle. According to the Department of Transport Management (DoTM) the no of applications to obtain driving license were over 25000 per week. A report from NADA shows 
+ Obtaining a driver's license is a crucial milestone for many individuals, as it allows them to operate a motor vehicle and provides a sense of independence and freedom. In order to obtain a driver's license, individuals must pass a driving exam that tests their knowledge of traffic laws and their ability to safely operate a vehicle. 
 
 Traditionally, driving license exams have been administered by a human evaluator who observes the candidate's performance and assesses whether they have passed or failed. However, this process can be time-consuming and subject to human error. There is also the potential for bias or inconsistency in the evaluation process, as different evaluators may have different standards for what constitutes a pass or fail.
 Here are some problems with the traditional model of administering driving license tests:
@@ -121,6 +125,7 @@ Here are some problems with the traditional model of administering driving licen
 \item \textbf{Inefficient}: The traditional model of administering driving license tests can be inefficient, as it requires the presence of a human evaluator and may involve multiple test sessions if the candidate does not pass on the first attempt.
 \item \textbf{Subjective}: The traditional model relies on subjective evaluations by human evaluators, which may not provide a consistent or objective assessment of the candidate's performance.
 \end{itemize}
+According to the NADA Automobiles Association of Nepal, the number of purchases of two-wheelers has more than doubled since the COVID-19 pandemic hit the country\cite{fivethousandapplicants}. With the increase in purchase of two-wheelers the number of applicants applying for driving license has also increased. According to the DoTM, more than 300,000 online service seekers in the Kathmandu Valley alone have not been able to participate in the trial exams yet. More than 700,000 service seekers have been waiting for the trials by filling online forms during the period of January to April\cite{fivethousandapplicants}\cite{twoyearwait}. However, the date for examinations till January 2022 has been booked as the Transportation Management Office has not been able to provide services as per the pressure of the service recipients. Of many factors that contribute to the TMO's inability to provide services as per requirement one is the inefficiency in the traditional driving license exam system. 
 
 In an effort to address these issues and bring increased efficiency, accuracy, and objectivity to the process of administering driving license exams, the "Automated Driving License Test" project was developed. This project replaces manual supervision with a software solution that utilizes various Python libraries to capture and process frames of the exam to determine the candidate's performance.
 
@@ -232,15 +237,21 @@ HAMS, in its general incarnation, uses the smartphone’s front and rear cameras
 
 \section{Related Theory}
 \subsection{Artificial Neural Network(ANN)}
-Artificial neural networks (ANN) are computing systems vaguely inspired by the biological neural networks that constitute animal brains. Such systems "learn" to perform tasks by considering examples, generally without being programmed with
-task-specific rules\cite{bordia2020automated}.
+
+ ANNs are artificial adaptive systems that are inspired by
+the functioning processes of the human brain \cite{nervousactivity}. They
+are systems that are able to modify their internal
+structure in relation to a function objective. They are
+particularly suited for solving problems of the nonlinear
+type, being able to reconstruct the fuzzy rules that govern
+the optimal solution for these problems \cite{introtoann}.
 
 \subsubsection{Neurons}
 ANNs are composed of artificial neurons which retain the biological concept of
 neurons, which receive input, combine the input with their internal state
 (activation) and an optional threshold using an activation function, and produce
 output using an output function. The important characteristic of the activation
-function is that it provides a smooth transition as input values change, i.e., a small change in input produces a small change in output.[4]
+function is that it provides a smooth transition as input values change, i.e., a small change in input produces a small change in output.
 
 \begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
 \begin{center}
@@ -271,12 +282,17 @@ between them are zero or more hidden layers.
 \end{figure}
 
 \subsection{Convolutional Neural Network(CNN)}
-CNN is a kind of neural network, its weight sharing network structure makes it more similar to the
-biological neural network, reduces the complexity of the network model and the
-number of weights [5].CNNs were inspired by biological processes. The name
-“convolutional neural network” indicates that the network employs a
-mathematical operation called convolution. Convolution is a specialized kind of
-linear operation. They use convolution in place of general matrix multiplication in at least one of their layers.
+CNN is a type of deep learning model for processing data that
+has a grid pattern, such as images, which is inspired by the
+organization of animal visual cortex \cite{hubel:monkey} \cite{fukushima:neocognitronbc} and designed to
+automatically and adaptively learn spatial hierarchies of features, from low- to high-level patterns. CNN is a mathematical
+construct that is typically composed of three types of layers (or
+building blocks): convolution, pooling, and fully connected
+layers. The first two, convolution and pooling layers, perform
+feature extraction, whereas the third, a fully connected layer,
+maps the extracted features into final output, such as classification. A convolution layer plays a key role in CNN, which
+is composed of a stack of mathematical operations, such as
+convolution, a specialized type of linear operation.
 
 \subsubsection{Design}
 A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of a series of convolutional layers that convolve with a multiplication or other dot product.
@@ -322,6 +338,8 @@ A CNN typically has three layers:
 \subsection{Hough Transform}
 The Hough transform (HT) was firstly proposed in for machine analysis of bubble chamber photographs. It parametrizes straight lines with slope-offset, leading to an unbounded transform space (since the slope can be infinity). extended HT by using angle-radius rather than slope-offset parameters, and is conceptually similar to two-dimensional Radom transform. Then generalized the idea of HT to localize arbitrary shapes, e.g. ellipses and circles, from digital images. For example, by parameterizing with angle and radius, line detection can be performed by voting edge evidence and finding peak response in the finite parametric space. Typically, with the edge detectors such as Canny  and Sobel , the detected lines are the maximal local response points in the transformed parametric space. The core idea of HT is used in two recent works which parameterize the outputs of CNNs with offsets and orientations to predict surface meshes  or convex decomposition  of 3D shapes. Despite the success of HT on line detection, it suffers from high computational costs and unstable performance. To accelerate the voting of HT proposed the “probabilistic Hough transform” to randomly pick sample points from a line, while  using the gradient direction of images to decide the voting points. Meanwhile, the work of employed kernel-based Hough transform to perform hough voting by using the elliptical-Gaussian kernel on collinear pixels to boost the original HT. Besides partitioned the input image into hierarchical image patches, and then applied HT independently to these patches. Use a coarse-to-fine accumulation and search strategy to identify significant peaks in the Hough parametric spaces. tackled line detection within a regularized framework, to suppress the effect of noise and clutter corresponding to nonlinear image features. The Hough voting scheme is also used in many other tasks such as detecting centroid of 3D shapes in point cloud and finding image correspondence.
 
+
+
 \chapter{Methodology}
 Automatic driving license consists of two parts. Object detection and lane detection. Object detection will be used to determine the position of vehicle and the position obtained will be compared with lane. If the position of vehicle is determined to be touching the lane then test will be automatically stopped prompting a message.  
 
@@ -329,7 +347,7 @@ Automatic driving license consists of two parts. Object detection and lane detec
 \begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
 \begin{center}
 	%\includegraphics[width = 3in]{images/logo.png}
-	\includegraphics[width = 4in]{images/system flowchart changed.png}
+	\includegraphics[width = 1.3in]{images/system flowchartdrawio.png}
 	\caption{Flow chart of System} %figure name
 	\label{figObjectDetectionusingYOLO} % for referencing
 \end{center}
@@ -378,8 +396,13 @@ Hough transform is a feature extraction method used in image analysis. The purpo
 	\label{figLaneDetectionusingFeatureSelection} % for referencing
 \end{center}
 \end{figure}
-
-\subsection{Testing}
+\section{Data Set Overview}
+The data set used for training, testing, and validation consisted of a total of 4,686 images. This includes 4,374 images used for training, 204 images used for testing, and 108 images used for validation. The data set  consists of images captured from a scaled-down version of a car, and simulations created using a game engine. The data set includes both successful and unsuccessful attempts at completing a driving test. The images were captured using a high-resolution camera mounted directly above the driving track giving top down view of the overall track. The images were then preprocessed to remove any noise or distortions caused by the camera. The simulations were created using a game engine and were designed to mimic real-world driving scenarios.
+\subsection{Data Collection Process}
+The images were captured during a driving test that was conducted using the scaled-down version of the car. The driving test was designed to mimic real-world driving exam scenario.. The simulations were created using a game engine, which allowed for the creation of a wide range of driving scenarios, including different weather conditions and traffic patterns.
+\subsection{Data Cleaning and Preprocessing}
+Several cleaning and preprocessing steps were taken to ensure the quality and reliability of the data set. These steps included removing any images with low quality or distortion caused by the camera, and standardizing the image size and format. Outliers were also identified and removed from the data set to ensure the accuracy of the results.
+\section{Testing}
 Effectiveness of the software will be tested by building a scaled downed model. The scaled downed car is in ratio 0f 1:17 with real car.
 %Block diagram of car
 \begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
@@ -394,34 +417,18 @@ Effectiveness of the software will be tested by building a scaled downed model. 
 Four motor are used in the scaled down model of the car. The motors are controlled using Electronics Speed Controller(ESC) and control signal is provided to the Electronic Speed Controller through a 2.4 Ghz receiver. A 2.4 Ghz transmitter is used by controller to transmit control signal wirelessly. 
 
 \chapter{Epilogue}
-\section{Result}
-\section{Conclusion}
-\section{Future Implementation}
+
+%\section{Work Completed}
+%As part of the "Automated Driving License Test" project, we have made significant progress in developing a software solution for administering driving license exams. The following tasks and milestones have been completed:
+%\begin{enumerate}
+%\item Scaled downed car: A scaled down version of test car with four wheels is constructed to test the software's performance.  
+%\item Custom object detection: Software if able to identify scaled down test car with accuracy of 0.9.
+%\item Lane Detection: An algorithm for the detection of road lines is developed and is in the process of refinement to increase it's accuracy and 	reliability. 
+%\item Pass or Fail determination: CNN is able to identify if the car has touched the line or not and is able to determine whether the examinee has passed or failed the exam. 
+%\end{enumerate}
 
 
-\section{Work Completed}
-As part of the "Automated Driving License Test" project, we have made significant progress in developing a software solution for administering driving license exams. The following tasks and milestones have been completed:
-\begin{enumerate}
-\item Scaled downed car: A scaled down version of test car with four wheels is constructed to test the software's performance.  
-\item Custom object detection: Software if able to identify scaled down test car with accuracy of 0.9.
-\item Lane Detection: An algorithm for the detection of road lines is developed and is in the process of refinement to increase it's accuracy and 	reliability. 
-\item Pass or Fail determination: CNN is able to identify if the car has touched the line or not and is able to determine whether the examinee has passed or failed the exam. 
-\end{enumerate}
 
-
-\section{Work in Process}
-\begin{enumerate}
-\item Lane detection is on process of refinement.
-\item Data model training.
-\item Scaled downed Track.
-\item Linking all algorithms into one program.
-\end{enumerate}
-
-\section{Work Remaining}
-\begin{enumerate}
-\item Scaled downed Track.
-\item Linkning all algorithms into one program
-\end{enumerate}
    
 %\hline
 \section{Result}
@@ -498,7 +505,11 @@ As part of the "Automated Driving License Test" project, we have made significan
 \end{figure}
 \end{enumerate}
 
-
+\section{Conclusion}
+The project “Automated Driving License Test” has been a great learning opportunity for us in terms of hardware and software interfacing. The main goal of our project was to make automation cost effective and user friendly. We achieved this by using easily and cheaply available components as well as open-source software.
+\\
+Since automation is the future of humanity, it must be accessible to everyone regardless of their economic status or expertise. The students of engineering in the later years might be able to learn something from this project and expand upon it. This project is only a tiny part of a robotic
+system but an essential one.
 \section{Work Scheduled}
 
 \begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
@@ -542,52 +553,20 @@ As part of the "Automated Driving License Test" project, we have made significan
 
 \label{tblCostEstimationTable}
 \end{table}
-
+\pagebreak
 
 %\chapter{}
-\subsubsection{Snapshots}
-\subsubsection{Work Done}
-\begin{figure}[!th] % tbh means top, bottom or here (priority: left to right)
-%\begin{centre}
+\section{Snapshots}
+\begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
 	%\includegraphics[width = 3in]{images/logo.png}
-	\includegraphics[width = 3in]{images/botpic10.jpg} 
-	\hspace{.5cm}
-	\includegraphics[width = 3in]{images/botpic11.jpg} 
-	%\caption{Scaled Down Car } %figure name
-	\label{figSample1} % for referencing
-%\end{centre}
-%\begin{centre}
-	%\includegraphics[width = 3in]{images/logo.png}
-	\includegraphics[width = 3in]{images/botlap.png} 
-	\label{figSample1} % for referencing
-%\end{centre}
+	\includegraphics[width = 6.5in]{images/snapshot.jpg}
+	%\caption{Flow chart of System} %figure name
+	\label{figObjectDetectionusingYOLO} % for referencing
+\end{center}
 \end{figure}
 
 
-\begin{figure}[!tbh] % tbh means top, bottom or here (priority: left to right)
-\%begin{center}
-	%\includegraphics[width = 3in]{images/logo.png}
-	\includegraphics[width = 3in]{images/botpid7.jpg}
-	\hspace{.5cm}
-	\includegraphics[width = 3in]{images/botpic8.jpg}
-	%\caption{Scaled Down Car } %figure name
-	\label{figSample1} % for referencing
-%\end{centre}
-\end{figure}
-
-
-
-\subsubsection{Work in Process}
-\begin{figure}[!tbh] % tbh means top, bottom or here (priority: left to right)
-%\begin{centre}
-	%\includegraphics[width = 3in]{images/logo.png}
-	\includegraphics[width = 3in]{images/work in process1.jpg} 
-	\hspace{.5cm}
-	\includegraphics[width = 3in]{images/work in process2.jpg} 
-	%\caption{Scaled Down Car } %figure name
-	\label{figSample1} % for referencing
-%\end{centre}
-\end{figure}
 \bibliography{reference.bib} % specify the .bib file containing reference information 
 \renewcommand\bibname{References} % Change heading to References
 \bibliographystyle{IEEEtr} % to use IEEE Format for referencing
